@@ -1,6 +1,6 @@
 const pg = require('pg')
 const client = new pg.Client({
-    connectionString:'postgresql://mitravlakshay:ADb72thUHRSy@ep-weathered-river-a50mchwg.us-east-2.aws.neon.tech/NewDatabase?sslmode=require'
+    connectionString:'postgresql:'
 })
 
 async function createTable(){
